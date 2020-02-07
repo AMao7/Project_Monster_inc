@@ -1,5 +1,5 @@
 # Project 5: Monster inc
 
-### Learning Objectives: to create Monster inc classes creating different methods and attributes for instances
+### Learning Objectives: to create Monster inc classes containing different methods and attributes for instances
 
-##### Utilised: OOP, Classes and Functions, Git and GitHub
+##### Utilised: OOP, Classes, Functions, Git and GitHub
