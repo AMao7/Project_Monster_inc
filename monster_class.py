@@ -1,5 +1,5 @@
 # make monster class here
-class monster_inc():
+class Monster_inc():
 
     def __init__(self,  name,  strength, scary_skills):
         self.name = name
@@ -16,4 +16,4 @@ class monster_inc():
         return 'rip monies'
 
     def shout_strength(self):
-        return 'ARRGHHHHHHHHHHH'
+        return self.strength.upper()      # we have access to the isntance of the class

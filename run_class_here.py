@@ -1,12 +1,17 @@
 
-from monster_class import monster_inc
+from monster_class import Monster_inc
 from student_monster_class import student_monster_inc
 
-print(student_monster_inc.eat('yikes'))
+print(student_monster_inc.eat("yikes"))
 
-boz = monster_inc('Boz', 4, 1000)
-james_p_sullivan = student_monster_inc("ID: 413123", 10)
+boz = Monster_inc('Boz', 4, 1000)
+james_p_sullivan = student_monster_inc("spooky_s", "ID: 413123")
 
-print(boz.shout_strength())
-print(james_p_sullivan.studying())
-print(james_p_sullivan.shout_strength())
+mike_wazowski = student_monster_inc('spooky_subject', "ID: 1241231" )
+print(mike_wazowski)
+
+print(Monster_inc.shout_strength(boz))
+
+
+
+
